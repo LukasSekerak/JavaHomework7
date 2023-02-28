@@ -16,10 +16,7 @@ public class Subscriber {
 	}
 
 	public Subscriber(String firstName, String lastName, SubscriberAddress fullAdress, String emailAddress, int age) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.fullAdress = fullAdress;
-		this.emailAddress = emailAddress;
+		this(firstName, lastName, fullAdress, emailAddress);
 		this.age = age;
 	}
 

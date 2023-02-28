@@ -22,9 +22,7 @@ public class Borrowing {
 	}
 
 	public Borrowing(Book boorrowedBook, Subscriber subscriber, LocalDate dateOfBorrowing, LocalDate returnDate) {
-		this.boorrowedBook = boorrowedBook;
-		this.subscriber = subscriber;
-		this.dateOfBorrowing = dateOfBorrowing;
+		this(boorrowedBook, subscriber, dateOfBorrowing);
 		this.returnDate = returnDate;
 	}
 
